@@ -1,0 +1,258 @@
+@media (max-width: 1000px) {
+    
+    /* Header Footer Config */
+
+    header{
+        height: 60px;
+        padding-top: 17px;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+
+    .header-logo{
+        padding: 0;
+    }
+
+    .header-list{
+        padding:  0px;
+    }
+
+    .header-logo img{
+        width: 130px;
+    }
+
+    /* Main Config */
+
+    .top-wrapper {
+        background-size: cover;
+        padding: 100px 0 85px 0 ;
+        
+    }
+
+    .top-wrapper .btn-wrapper{
+        margin: 50px 0 ;
+    }
+
+    .btn-wrapper .booking{
+        width: 190px;
+        height: 50px;
+        font-size: 15px;
+        padding: 0px;
+        text-align: center;
+        border-radius: 13px;
+    }
+
+    .btn-wrapper .explore{
+        width: 190px;
+        height: 50px;
+        font-size: 15px;
+        padding: 0px;
+        text-align: center;
+        border-radius: 13px;
+    }
+    
+
+    .background-header h1{
+        font-size: 39px;
+    } 
+
+    .background-header p{
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding-top: 10px;
+    }
+
+    /* Body Config */
+
+    .vacation-wrapper{
+        flex-wrap: wrap;
+        justify-content: none;
+        padding: 0px 0 120px 0;
+    }
+
+    .tittle h1{
+        font-size: 27px;
+    }
+
+    .vacation {
+        padding-top: 50px;
+        width: 40%;
+    }
+
+    .img-container p{
+        font-size: 18px;
+        bottom: 9%;
+        left: 9%;
+    }
+    .vacation .list li{
+        font-size: 16px;
+    }
+
+
+    /* Form Config */
+
+    .form-wrapper h1 {
+        font-size: 25px;
+    }
+
+    label{
+        font-size: 15px;
+    }
+
+    .form-wrapper .btn{
+        font-size: larger;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 670px){
+
+    /* Header Footer Config */
+
+    .header-list{
+        display: none;
+    }
+
+    header{
+        height: 50px;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .minimenu{
+        
+        float: right;
+        display: block;
+        color: white;
+        
+    }
+
+    .minimenu:hover{
+        cursor: pointer;
+    }
+
+    .header-logo{
+        
+        padding: 0px;
+    }
+
+    .minimenu .fa{
+        font-size: 30px;
+    }
+
+    /* Main Config */
+
+    .top-wrapper {
+        background-size: cover;
+        padding: 80px 0 60px 0 ;
+        
+    }
+
+    .top-wrapper .btn-wrapper{
+        margin: 20px 0 ;
+    }
+
+    .btn-wrapper .booking{
+        width: 150px;
+        height: 40px;
+        font-size: smaller;
+        padding: 0px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .btn-wrapper .explore{
+        width: 150px;
+        height: 40px;
+        font-size: smaller;
+        padding: 0px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    
+
+    .background-header h1{
+        font-size: 25px;
+    } 
+
+    .background-header p{
+        font-size: 13px;
+        letter-spacing: 1px;
+        padding-top: 6px;
+        text-shadow: 1px 0px rgb(39, 39, 39);
+    }
+
+    /* Body Config */
+
+    .vacation-wrapper{
+        flex-wrap: wrap;
+        justify-content: none;
+        padding: 0px 0 120px 0;
+    }
+
+    .tittle h1{
+        font-size: 20px;
+    }
+
+    .vacation {
+        padding-top: 50px;
+        padding-right: 17%;
+        padding-left: 17%;
+        width: 100%;
+    }
+
+    .img-container p{
+        font-size: 100%;
+        bottom: 9%;
+        left: 9%;
+    }
+    .vacation .list li{
+        font-size: 16px;
+    }
+
+    /* Form Config */
+
+
+    .form-wrapper h1 {
+        font-size: 15px;
+        padding: 10px 0 ;
+    }
+
+    label{
+        font-size: 15px;
+    }
+
+    form{
+        width: 100%;
+    }
+
+    .form-wrapper .btn{
+        border-radius: 7px;
+        font-size: larger;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+
+    .footer-logo{
+        
+        float: none;
+        text-align: center;
+        padding: 0px;
+    }
+    .footer-logo img{
+        width: 140px;
+    }
+    footer{
+        height: 100%;
+    }
+    .footer-list{
+        float: none;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    
+
+}
